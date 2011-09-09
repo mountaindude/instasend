@@ -1,0 +1,7 @@
+/dev/ttyUSB2
+
+gcc -o jungsend jungsend.c
+
+ python instasend.py -c a4off --port /dev/ttyUSB2
+
+
